@@ -1,0 +1,17 @@
+.article-preview{
+    margin-bottom: 1vh;
+}
+.article-preview .css-u78q51-MuiGrid-root{
+    width: 30px!important;
+}
+
+.article-preview .follow-btn{
+    background-color: transparent;
+}
+.article-preview .follow-btn:hover{
+    background-color: transparent;
+}
+
+.article-preview .tag table th{
+    padding: 0;
+}

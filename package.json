@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.90",
+    "@mui/material": "^5.8.4",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "axios": "^0.27.2",
+    "cloudinary-react": "^1.8.0",
+    "react-moment": "^1.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "slugify": "^1.6.5",
+    "socket.io": "^4.5.1",
+    "styled-components": "^5.3.5",
+    "unique-slug": "^2.0.2",
+    "universal-cookie": "^4.0.4"
+  }
+}

@@ -1,0 +1,33 @@
+.noti-grid{
+
+}
+
+.noti-grid::-webkit-scrollbar {
+    opacity: 0;
+    width: 10px;
+}
+.noti-grid::-webkit-scrollbar-thumb {
+    opacity: 0;
+    background-color: transparent;
+    border-radius: 20px;
+    transition-duration: 5s;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1) scale(3.4144);
+}
+  
+.noti-grid::-webkit-scrollbar-track {
+    opacity: 0;
+    background-color: transparent;
+    transition-duration: 5s;
+    border-radius: 20px;
+    transition:cubic-bezier(1, 0, 0, 1)
+}
+
+.noti-grid::-webkit-scrollbar-thumb:hover{
+    background: #666;
+    border-radius: 20px;
+}
+
+.noti-grid::-webkit-scrollbar-track:hover{
+    background: #ddd;
+    border-radius: 20px;
+}

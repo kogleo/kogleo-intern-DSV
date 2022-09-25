@@ -1,0 +1,21 @@
+.popup-article .cover{
+    background-color: black;
+    width: 100vw;
+    height: 100vh; 
+    z-Index: 10;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.popup-article .content{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 1;
+    border-radius: 2vh;
+    z-index: 20;
+}

@@ -1,0 +1,19 @@
+.imageList-profile .MuiImageListItemBar-titleWrap{
+    display: none;
+}
+
+.imageList-profile .MuiImageListItemBar-actionIcon{
+    position: relative;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.imageList-profile .MuiImageListItemBar-root{
+    opacity: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.imageList-profile .MuiImageListItemBar-root:hover{
+    opacity: 1;
+}
+

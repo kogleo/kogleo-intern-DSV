@@ -1,0 +1,40 @@
+.header-bar .app-bar{
+    box-shadow: none;
+    border-bottom: 1px solid #ccc ;
+}
+
+.header-bar .user-avatar{
+    width: 30px;
+    height: 30px;
+}
+
+.header-bar .app-bar .logo .logo-img{
+    width: 30px;
+    height: 30px;
+}
+
+.header-bar .css-15zhday-MuiButtonBase-root-MuiButton-root:hover{
+    /* color: rgba(255, 255, 255, 1); */
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+
+#menu-appbar a{
+    text-decoration: none;
+    color: black;
+}
+#menu-appbar a:hover{
+    background: transparent;
+}
+
+#menu-appbar button{
+    text-decoration: none;
+    color: black;
+}
+#menu-appbar button:hover{
+    background: transparent;
+}
+
+#menu-appbar .MuiPopover-paper.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+    overflow: visible;
+}

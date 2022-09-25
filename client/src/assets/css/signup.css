@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'instagram';
+    src: url('../fonts/fontspring_regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.sign-up .logo{
+    font-family: instagram;
+}
+
+.sign-up .description{
+    color: rgb(142,142,142);
+}
+
+.sign-up .fb-login button{
+    width: 100%;
+    background-color: rgb(0,149,246);
+}
+
+.sign-up .divide{
+    color: rgb(142,142,142);
+}
+
+.sign-up .sign-up-btn, .sign-up .sign-up-btn-dis{
+    width: 100%;
+}
+
+.sign-up-btn-dis{
+    background-color: rgb(0,149,246)!important;
+    color: white!important;
+    opacity: 0.4;
+}
+
+.sign-up-btn{
+    background-color: rgb(0,149,246)!important;
+}

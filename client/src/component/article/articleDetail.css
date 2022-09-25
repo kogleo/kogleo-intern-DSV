@@ -1,0 +1,131 @@
+/* *{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+} */
+
+.article-detail{
+    height: 80vh;
+}
+
+.article-detail .comment::-webkit-scrollbar {
+    display: none;
+}
+
+.article-detail .comment-box{
+    margin-left: 1vw;
+    
+}
+
+.article-detail .comment-input .MuiOutlinedInput-root{
+    border-radius: 50px!important;
+    max-height: 10vh;
+    overflow-y: scroll;
+    margin-bottom: 1vh;
+}
+
+.article-detail .comment-input .MuiOutlinedInput-root::-webkit-scrollbar {
+    opacity: 0;
+    width: 10px;
+    cursor: auto;
+}
+.article-detail .comment-input .MuiOutlinedInput-root::-webkit-scrollbar-thumb {
+    opacity: 0;
+    background-color: transparent;
+    border-radius: 20px;
+    transition-duration: 5s;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1) scale(3.4144);
+    cursor: auto;
+}
+  
+.article-detail .comment-input .MuiOutlinedInput-root::-webkit-scrollbar-track {
+    opacity: 0;
+    background-color: transparent;
+    transition-duration: 5s;
+    border-radius: 20px;
+    transition:cubic-bezier(1, 0, 0, 1);
+    cursor: auto;
+    
+}
+
+.article-detail .comment-input .MuiOutlinedInput-root::-webkit-scrollbar-thumb:hover{
+    background: #666;
+    border-radius: 20px;
+    cursor: auto;
+}
+
+.article-detail .comment-input .MuiOutlinedInput-root::-webkit-scrollbar-track:hover{
+    background: #ddd;
+    border-radius: 20px;
+    cursor: auto;
+}
+
+
+
+.article-detail .detail-follow-btn button{
+    height: 24px;
+}
+
+.article-detail .comment-form .css-3i94e7-MuiInputBase-root-MuiOutlinedInput-root
+{
+    border-radius: 0;
+}
+
+
+
+
+.article-detail .right-side{
+    background-color: white;
+}
+.article-detail .top-content .body{
+    max-height: 65vh;
+    overflow-y: scroll;
+}
+
+
+.article-detail .top-content .body::-webkit-scrollbar {
+    opacity: 0;
+    width: 10px;
+}
+.article-detail .top-content .body::-webkit-scrollbar-thumb {
+    opacity: 0;
+    background-color: transparent;
+    border-radius: 20px;
+    transition-duration: 5s;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1) scale(3.4144);
+}
+  
+.article-detail .top-content .body::-webkit-scrollbar-track {
+    opacity: 0;
+    background-color: transparent;
+    transition-duration: 5s;
+    border-radius: 20px;
+    transition:cubic-bezier(1, 0, 0, 1)
+}
+
+.article-detail .top-content .body::-webkit-scrollbar-thumb:hover{
+    background: #666;
+    border-radius: 20px;
+}
+
+.article-detail .top-content .body::-webkit-scrollbar-track:hover{
+    background: #ddd;
+    border-radius: 20px;
+}
+
+
+.article-detail .comment-form::-webkit-scrollbar {
+    display: none;
+}
+
+.article-detail .comment-form{
+    max-height: 15vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+
+.article-detail .comment-input textarea{
+    margin: 0 12px
+}
+
